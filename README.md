@@ -60,13 +60,155 @@ AI Desktop Controller ek intelligent automation system hai jo:
 - No extra software required
 
 ---
+# 💖 Set Waifu & Connect MateEngine
+
+This section explains how to setup your Waifu package and connect it with MateEngine.exe properly.
+
+---
+
+## 📦 Step 1 – Extract Waifu ZIP
+
+1️⃣ Download the Waifu ZIP file  
+2️⃣ Right-click the ZIP file  
+3️⃣ Click **Extract Here** or **Extract to Folder**  
+4️⃣ Make sure the extracted folder contains:
+
+```
+waifu/
+├── model/
+├── textures/
+├── config.json
+├── animations/
+```
+
+⚠ Important: Do NOT run directly from inside ZIP. Always extract first.
+
+---
+
+## 🖥 Step 2 – Place Waifu Folder
+
+Move the extracted `waifu` folder inside:
+
+```
+AI_Desktop_Controller/assets/
+```
+
+Final structure should look like:
+
+```
+AI_Desktop_Controller/
+│
+├── assets/
+│   ├── waifu/
+│
+├── MateEngine.exe
+├── launcher.py
+```
+
+---
+
+## ⚙ Step 3 – Connect MateEngine.exe
+
+1️⃣ Make sure `MateEngine.exe` is in the root directory  
+2️⃣ Double click `MateEngine.exe`  
+3️⃣ Wait until engine fully loads  
+4️⃣ Now run:
+
+```bash
+python launcher.py
+```
+
+If configured correctly, MateEngine will:
+
+✔ Load Waifu Model  
+✔ Initialize Animations  
+✔ Start AI Sync  
+✔ Connect to Desktop Controller  
+
+---
+
+## 🔌 Auto Connect Configuration
+
+Open `config.json` and verify:
+
+```json
+{
+  "mate_engine_path": "MateEngine.exe",
+  "waifu_path": "assets/waifu/",
+  "auto_connect": true
+}
+```
+
+If MateEngine is installed somewhere else, provide full path:
+
+```json
+"mate_engine_path": "C:/Program Files/MateEngine/MateEngine.exe"
+```
+
+---
+
+## 🧠 How Connection Works
+
+1️⃣ Launcher checks MateEngine process  
+2️⃣ If not running → auto start  
+3️⃣ Engine loads waifu model  
+4️⃣ Socket connection established  
+5️⃣ AI commands sync with animation system  
+
+---
+
+## 🛠 Troubleshooting
+
+### ❌ Waifu Not Loading
+- Check folder name spelling
+- Ensure model files exist
+- Re-extract ZIP
+
+### ❌ MateEngine Not Connecting
+- Run as Administrator
+- Check firewall permission
+- Verify correct path in config.json
+
+### ❌ Animation Not Working
+- Confirm animations folder exists
+- Check model compatibility version
+
+---
+
+## 🚀 Advanced Mode (Optional)
+
+To auto-start MateEngine when Windows boots:
+
+1️⃣ Press `Win + R`
+2️⃣ Type:
+
+```
+shell:startup
+```
+
+3️⃣ Paste MateEngine shortcut inside Startup folder
+
+Now your Waifu + AI will auto start with PC 🔥
+
+---
+
+# ✅ Setup Complete
+
+Once connected successfully:
+
+- Voice commands trigger animation
+- Smartphone control syncs with Waifu
+- Desktop automation shows live reactions
+
+Your AI Waifu is now fully active 💖🤖
+
 
 # 🛠 Tech Stack
 
 | Technology | Purpose |
 |------------|----------|
 | Python | Core Engine |
-| Flask / Socket | Communication Server |
+| Flask / Socket | Communication Server | Unityhub
 | SpeechRecognition | Voice Input |
 | TTS Engine | Voice Output |
 | Web Interface | Smartphone Control |
