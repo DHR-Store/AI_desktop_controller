@@ -165,6 +165,60 @@ If MateEngine is installed elsewhere, provide the full path:
 
 ### ❌ Waifu Not Loading
 
+---
+
+# 📸 Waifu Demo Setup Preview
+
+Below are actual setup screenshots of Waifu + MateEngine connection:
+
+---
+
+## 🖼 Step 1 – Extract Waifu ZIP
+
+<p align="center">
+  <img src="app/Screenshot 2026-02-19 170444.png" width="700"/>
+</p>
+
+---
+
+## 🖼 Step 2 – Place Waifu in Assets Folder
+
+<p align="center">
+  <img src="app/Screenshot 2026-02-19 170514.png" width="700"/>
+</p>
+
+---
+
+## 🖼 Step 3 – Run MateEngine & Launcher
+
+<p align="center">
+  <img src="app/Screenshot 2026-02-19 171004.png" width="700"/>
+</p>
+
+---
+
+# 🎥 Live Demo Flow
+
+1️⃣ Extract Waifu ZIP  
+2️⃣ Move to `assets/waifu/`  
+3️⃣ Start `MateEngine.exe`  
+4️⃣ Run `python launcher.py`  
+5️⃣ AI + Waifu animation sync starts  
+
+---
+
+# ✨ Result
+
+✔ Waifu loads successfully  
+✔ Animations active  
+✔ AI voice synced  
+✔ Desktop commands trigger reactions  
+
+Your AI Companion is now fully operational 💖🤖🔥
+
+---
+
+
 - Check folder name spelling  
 - Ensure model files exist  
 - Re-extract the ZIP file  
