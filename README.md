@@ -103,7 +103,7 @@ AI_Desktop_Controller/
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/AI_Desktop_Controller.git
+git clone https://github.com/YOUR-USERNAME/AI_desktop_controller.git
 cd AI_Desktop_Controller
 ```
 
