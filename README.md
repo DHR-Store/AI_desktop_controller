@@ -1,7 +1,8 @@
-# AI_desktop_controller
+# AI_Desktop_Controller
 
 # 🚀 AI Desktop Controller  
-### 🧠 Control Your Entire PC with AI — From Desktop or Smartphone 📱💻
+
+### 🧠 Control Your Entire PC with AI — From Desktop or Smartphone 📱💻  
 
 <p align="center">
   <img src="https://img.shields.io/badge/AI-Powered-blue?style=for-the-badge&logo=robotframework" />
@@ -20,21 +21,22 @@
 
 # 🔥 What is AI Desktop Controller?
 
-AI Desktop Controller ek intelligent automation system hai jo:
+AI Desktop Controller is an intelligent automation system that allows you to:
 
-✅ PC ko voice se control karta hai  
-✅ Commands ko samajhta hai  
-✅ Smartphone se remote control allow karta hai  
-✅ System level automation karta hai  
-✅ Fully Local – No Cloud Required  
+✅ Control your PC using voice commands  
+✅ Understand and execute smart commands  
+✅ Remotely control your PC from a smartphone  
+✅ Perform system-level automation  
+✅ Operate fully locally — No cloud dependency  
 
 ---
 
 # ✨ Core Features
 
 ## 🖥 Full Desktop Control
+
 - Open / Close Applications  
-- File & Folder Control  
+- File & Folder Management  
 - Shutdown / Restart / Sleep  
 - Volume & Media Control  
 - Browser Automation  
@@ -43,26 +45,28 @@ AI Desktop Controller ek intelligent automation system hai jo:
 ---
 
 ## 🎙 Smart Voice Assistant
+
 - Offline Voice Recognition  
 - Natural Language Processing  
-- Custom Commands Support  
-- Text to Speech Response  
+- Custom Command Support  
+- Text-to-Speech Responses  
 
 ---
 
 ## 📱 Smartphone Control Mode
 
-> Phone se PC ko control karo real-time
+> Control your PC in real-time from your phone
 
-- Same WiFi par connect
-- Web-based control panel
-- Instant command execution
-- No extra software required
+- Connect via same WiFi network  
+- Web-based control panel  
+- Instant command execution  
+- No additional software required  
 
 ---
+
 # 💖 Set Waifu & Connect MateEngine
 
-This section explains how to setup your Waifu package and connect it with MateEngine.exe properly.
+This section explains how to set up your Waifu package and connect it with `MateEngine.exe`.
 
 ---
 
@@ -70,8 +74,8 @@ This section explains how to setup your Waifu package and connect it with MateEn
 
 1️⃣ Download the Waifu ZIP file  
 2️⃣ Right-click the ZIP file  
-3️⃣ Click **Extract Here** or **Extract to Folder**  
-4️⃣ Make sure the extracted folder contains:
+3️⃣ Select **Extract Here** or **Extract to Folder**  
+4️⃣ Ensure the extracted folder contains:
 
 ```
 waifu/
@@ -81,13 +85,13 @@ waifu/
 ├── animations/
 ```
 
-⚠ Important: Do NOT run directly from inside ZIP. Always extract first.
+⚠ Important: Do NOT run files directly from the ZIP archive. Always extract first.
 
 ---
 
 ## 🖥 Step 2 – Place Waifu Folder
 
-Move the extracted `waifu` folder inside:
+Move the extracted `waifu` folder into:
 
 ```
 AI_Desktop_Controller/assets/
@@ -109,10 +113,10 @@ AI_Desktop_Controller/
 
 ## ⚙ Step 3 – Connect MateEngine.exe
 
-1️⃣ Make sure `MateEngine.exe` is in the root directory  
-2️⃣ Double click `MateEngine.exe`  
-3️⃣ Wait until engine fully loads  
-4️⃣ Now run:
+1️⃣ Make sure `MateEngine.exe` is placed in the root directory  
+2️⃣ Double-click `MateEngine.exe`  
+3️⃣ Wait until the engine fully loads  
+4️⃣ Then run:
 
 ```bash
 python launcher.py
@@ -120,9 +124,9 @@ python launcher.py
 
 If configured correctly, MateEngine will:
 
-✔ Load Waifu Model  
-✔ Initialize Animations  
-✔ Start AI Sync  
+✔ Load Waifu model  
+✔ Initialize animations  
+✔ Start AI synchronization  
 ✔ Connect to Desktop Controller  
 
 ---
@@ -139,7 +143,7 @@ Open `config.json` and verify:
 }
 ```
 
-If MateEngine is installed somewhere else, provide full path:
+If MateEngine is installed elsewhere, provide the full path:
 
 ```json
 "mate_engine_path": "C:/Program Files/MateEngine/MateEngine.exe"
@@ -147,12 +151,12 @@ If MateEngine is installed somewhere else, provide full path:
 
 ---
 
-## 🧠 How Connection Works
+## 🧠 How the Connection Works
 
-1️⃣ Launcher checks MateEngine process  
-2️⃣ If not running → auto start  
-3️⃣ Engine loads waifu model  
-4️⃣ Socket connection established  
+1️⃣ Launcher checks if MateEngine process is running  
+2️⃣ If not running → auto-starts it  
+3️⃣ Engine loads Waifu model  
+4️⃣ Socket connection is established  
 5️⃣ AI commands sync with animation system  
 
 ---
@@ -160,18 +164,21 @@ If MateEngine is installed somewhere else, provide full path:
 ## 🛠 Troubleshooting
 
 ### ❌ Waifu Not Loading
-- Check folder name spelling
-- Ensure model files exist
-- Re-extract ZIP
+
+- Check folder name spelling  
+- Ensure model files exist  
+- Re-extract the ZIP file  
 
 ### ❌ MateEngine Not Connecting
-- Run as Administrator
-- Check firewall permission
-- Verify correct path in config.json
 
-### ❌ Animation Not Working
-- Confirm animations folder exists
-- Check model compatibility version
+- Run as Administrator  
+- Check firewall permissions  
+- Verify correct path in `config.json`  
+
+### ❌ Animations Not Working
+
+- Confirm animations folder exists  
+- Check model compatibility version  
 
 ---
 
@@ -179,40 +186,42 @@ If MateEngine is installed somewhere else, provide full path:
 
 To auto-start MateEngine when Windows boots:
 
-1️⃣ Press `Win + R`
+1️⃣ Press `Win + R`  
 2️⃣ Type:
 
 ```
 shell:startup
 ```
 
-3️⃣ Paste MateEngine shortcut inside Startup folder
+3️⃣ Place a MateEngine shortcut inside the Startup folder  
 
-Now your Waifu + AI will auto start with PC 🔥
+Now your Waifu + AI system will automatically start with your PC 🔥
 
 ---
 
 # ✅ Setup Complete
 
-Once connected successfully:
+Once successfully connected:
 
-- Voice commands trigger animation
-- Smartphone control syncs with Waifu
-- Desktop automation shows live reactions
+- Voice commands trigger animations  
+- Smartphone control syncs with Waifu  
+- Desktop automation shows live AI reactions  
 
-Your AI Waifu is now fully active 💖🤖
+Your AI Waifu is now fully active 💖🤖  
 
+---
 
 # 🛠 Tech Stack
 
 | Technology | Purpose |
 |------------|----------|
 | Python | Core Engine |
-| Flask / Socket | Communication Server | Unityhub
+| Flask / Socket | Communication Server |
 | SpeechRecognition | Voice Input |
 | TTS Engine | Voice Output |
 | Web Interface | Smartphone Control |
 | Automation APIs | System Control |
+| Unity Hub | Engine Management |
 
 ---
 
@@ -269,17 +278,17 @@ python launcher.py
 
 # 📱 How To Use Smartphone Control
 
-1️⃣ PC par `launcher.py` run karo  
-2️⃣ Terminal me local IP address show hoga  
-3️⃣ Phone me browser open karo  
-4️⃣ Enter karo:  
+1️⃣ Run `launcher.py` on your PC  
+2️⃣ The terminal will display your local IP address  
+3️⃣ Open your phone browser  
+4️⃣ Enter:
 
 ```
 http://YOUR-PC-IP:PORT
 ```
 
-5️⃣ Control panel open ho jayega 🎉  
-6️⃣ Commands bhejo — PC execute karega instantly  
+5️⃣ The control panel will open 🎉  
+6️⃣ Send commands — your PC will execute instantly  
 
 ---
 
@@ -287,20 +296,20 @@ http://YOUR-PC-IP:PORT
 
 | Command | Action |
 |---------|--------|
-| Open Chrome | Browser launch |
+| Open Chrome | Launch browser |
 | Shutdown PC | System shutdown |
 | Increase volume | Volume up |
 | Play music | Media control |
-| Lock system | Windows lock |
+| Lock system | Lock Windows |
 
 ---
 
 # 🔐 Security System
 
-- Local Network Only
-- Token Based Access
-- Permission Controlled Commands
-- No Internet Dependency
+- Local Network Access Only  
+- Token-Based Authentication  
+- Permission-Controlled Commands  
+- No Internet Dependency  
 
 ---
 
@@ -334,14 +343,14 @@ http://YOUR-PC-IP:PORT
 
 # 🤝 Contribution
 
-Pull requests welcome 🚀  
+Pull requests are welcome 🚀  
 Fork → Improve → Submit PR  
 
 ---
 
 # 📜 License
 
-MIT License
+MIT License  
 
 ---
 
@@ -354,7 +363,7 @@ Made with ❤️ by **DHR-Store**
 # ⭐ If You Like This Project
 
 Give it a star ⭐  
-It motivates development 💪🔥
+It motivates development 💪🔥  
 
 ---
 
